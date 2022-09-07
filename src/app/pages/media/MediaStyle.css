@@ -1,0 +1,7 @@
+.video_input_field{
+    display: none;
+}
+.video_input_video{
+    display: block;
+    margin: 0;
+}
