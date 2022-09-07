@@ -9,8 +9,6 @@ const dispatch=useDispatch()
     dispatch(getAllUsers())
   }, [])
   let { userData } = useSelector((state)=>state.userReducer)
-  console.log(userData)
-
   
   return (
     <div>
@@ -21,7 +19,6 @@ const dispatch=useDispatch()
           <h2>{item.id}</h2>
          </>
         )
-
         )
       }
     </div>

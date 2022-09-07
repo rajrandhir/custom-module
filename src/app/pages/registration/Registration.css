@@ -1,0 +1,12 @@
+.registration_bx{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+.reg_error{
+    margin-top: 0.2rem;
+    color: red;
+    font-size: 12px;
+}

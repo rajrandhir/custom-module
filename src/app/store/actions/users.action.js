@@ -19,10 +19,10 @@ export const getAllUsers = ()=>{
             dispatch(pendingFetch())
            const res = await fetch("https://jsonplaceholder.typicode.com/users")
            const resResult = await res.json();
-        //    console.log(resResult,"mil rha h")
            dispatch(fetchData(resResult))  
         } catch (error) {
             dispatch(fetchError(error))
         }
     }
 }
+

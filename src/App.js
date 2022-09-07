@@ -1,24 +1,24 @@
 import React, { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
-import Test from "./Test";
+import Spiner from "./utils/Loader";
 
-const loading = (
-  <div className="text-center">
-    <div className="">Loading...</div>
-  </div>
-)
+// const loading = (
+//   <div className="text-center">
+//     <div className="">Loading...</div>
+//   </div>
+// )
 // Layouts
 const Layout = lazy(() => import('./app/layouts/Layout'));
 
 //pages
 const Login = lazy(() => import('./app/pages/login/Login'));
 const Register = lazy(() => import('./app/pages/registration/Registration'));
-const Page404 = lazy(() => import('./app/pages/page404/Page404'));
+// const Page404 = lazy(() => import('./app/pages/page404/Page404'));
 
 function App() {
   return (
     <>
-      <Suspense fallback={loading}>
+      <Suspense fallback={<Spiner/>}>
         <Routes>
           <Route path="/" element={<Layout />} />
           <Route path="/login" element={<Login />} />

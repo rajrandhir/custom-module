@@ -1,7 +1,5 @@
 import { lazy } from "react";
 
-import Test from "./Test"
-
 const Main = lazy(() => import('./app/main'));
 // const Login = lazy(() => import('./app/pages/login/Login'));
 const Page404 = lazy(() => import('./app/pages/page404/Page404'));
@@ -9,8 +7,6 @@ const Page404 = lazy(() => import('./app/pages/page404/Page404'));
 
 const routes = [
     { path: '/',  component: Main },
-    { path: '/test' , component: Test },
     { path: '*' , component: Page404 },
 ]
-
 export default routes;

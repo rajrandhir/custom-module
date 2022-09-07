@@ -1,3 +1,14 @@
 export const PENDING_USER_DATA =  "PENDING_USER_DATA";
 export const GET_USERS_DATA = "GET_USERS_DATA";
 export const GET_ERRORS = "GET_ERRORS";
+
+//registration
+export const PENDING_REGISTER_USER = "PENDING_REGISTER_USER";
+export const POST_REGISTER_USER = "POST_REGISTER_USER";
+export const ERROR_REGISTER_USER = "ERROR_REGISTER_USER";
+
+//login
+export const PENDING_LOGIN_USER = "PENDING_LOGIN_USER";
+export const POST_LOGIN_USER = "POST_LOGIN_USER";
+export const ERROR_LOGIN_USER = "ERROR_LOGIN_USER";
+
