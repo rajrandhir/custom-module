@@ -5,3 +5,13 @@
     display: block;
     margin: 0;
 }
+.card_bx{
+    width: 60%;
+    height: 50%;
+}
+
+@media(max-width: 950px){
+    .card_bx{
+        width: 98%;
+    }
+}

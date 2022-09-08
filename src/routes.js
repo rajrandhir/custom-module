@@ -6,8 +6,8 @@ const VideoPlayer = lazy(()=> import('./app/pages/media/VideoPlayer'))
 
 
 const routes = [
-    { path: '/',  component: Main },
-    { path: '/video',  component: VideoPlayer },
+    // { path: '/',  component: Main },
+    { path: '/',  component: VideoPlayer },
     { path: '*' , component: Page404 },
 ]
 export default routes;

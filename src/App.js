@@ -1,6 +1,7 @@
 import React, { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import Spiner from "./utils/Loader";
+import VideoPlayer from "./app/pages/media/VideoPlayer";
 
 // const loading = (
 //   <div className="text-center">
@@ -20,7 +21,7 @@ function App() {
     <>
       <Suspense fallback={<Spiner/>}>
         <Routes>
-          <Route path="/" element={<Layout />} />
+          {/* <Route path="/" element={<Layout />} /> */}
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="*" element={<Layout />} />
