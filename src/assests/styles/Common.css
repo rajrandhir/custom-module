@@ -1,0 +1,15 @@
+.button-group button{
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.button-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+.spiner{
+    margin-top: 4rem;
+}
+.loader_margin{
+    margin-top: 2rem;
+    
+}

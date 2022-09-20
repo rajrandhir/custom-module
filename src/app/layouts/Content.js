@@ -9,7 +9,6 @@ const loading = (
     <div className="">Loading...</div>
   </div>
 )
-
 const Content = () => {
   return (
     <>

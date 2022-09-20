@@ -1,17 +1,11 @@
-.video_input_field{
-    display: none;
-}
-.video_input_video{
-    display: block;
-    margin: 0;
-}
-.card_bx{
-    width: 60%;
-    height: 50%;
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25%
+        /* Player ratio: 100 / (1280 / 720) */
 }
 
-@media(max-width: 950px){
-    .card_bx{
-        width: 98%;
-    }
+.react-player {
+    position: absolute;
+    top: 2rem;
+    left: 0;
 }

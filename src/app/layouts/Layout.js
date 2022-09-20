@@ -5,12 +5,11 @@ import Content from "../layouts/Content";
 
 const Layout = () => {
   return (
-    <div>
+    <>
       <Header />
       <Content />    
-      <Footer />      
-    </div>
+      {/* <Footer />       */}
+    </>
   )
 }
-
 export default Layout
