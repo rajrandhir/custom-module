@@ -1,7 +1,7 @@
                 
 #                 Custom video Player  
 
-**Significance :** . A react component supports multiple video formats such as mp4/webm/ogv/mp3/hls/  dash/youtube/facebook/etc.
+**Significance :** . A react component supports multiple video formats such as mp4/webm/ogv/mp3/hls(m3u8)/dash(mpd)/youtube/facebook/soundCloud/vimeo/twich/streamable/wistia/dailyMotion/mixCloud/vidyard/kaltura/
 
     note: avi vedo doesn't support.
     

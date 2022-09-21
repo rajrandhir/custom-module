@@ -12,9 +12,9 @@ const customPlayerSize = {
 }
 const VideoPlayer = () => {
   const [videoLink, setVideoLink] = useState([]);
-  // console.log(videoLink.url)
 
-  // get get video link from Api
+  // console.log(videoLink.url)
+  // get video link from Api
   // const getApiData = async()=>{
   //   try {
   //     const res = await axios("https://jsonplaceholder.typicode.com/photos/1");
