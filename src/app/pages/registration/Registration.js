@@ -43,7 +43,7 @@ const Registration = () => {
                   onChange={handleChange}
                   value={regFormData.email}
                   size="small"
-                  // autoComplete='off'
+                // autoComplete='off'
                 />
                 {error.email && <p className='reg_error'>{error.email}</p>}
 
@@ -55,7 +55,7 @@ const Registration = () => {
                   onChange={handleChange}
                   value={regFormData.password}
                   size="small"
-                  // autoComplete='off'
+                // autoComplete='off'
                 />
                 {error.password && <p className='reg_error'>{error.password}</p>}
               </div>

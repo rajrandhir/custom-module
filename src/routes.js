@@ -7,10 +7,11 @@ const VideoPlayer = lazy(() => import('./app/pages/media/VideoPlayer'));
 const CustomBtn = lazy(() => import('./app/pages/button/ButtonProps'));
 const Taskbtn = lazy(() => import('./app/pages/taskbtn/TastButton'));
 const DatePickers = lazy(() => import("./app/pages/datePicker/Picker"));
-const CustomLoader = lazy(() => import("./app/pages/defaultprops/LoaderProps"))
+const CustomLoader = lazy(() => import("./app/pages/spiner/LoaderProps"))
 const CustomGoogleMap = lazy(() => import("./app/pages/googleMap/CustomGoogleMaps"))
 const CustomMap = lazy(() => import("./app/pages/googleMap/PlaceComponent"))
 const ImageUpload = lazy(() => import("./app/pages/imageUpload/ImageUpload"))
+const demoLogin = lazy(() => import("./app/pages/demoLogin/Login"))
 
 
 const routes = [
@@ -23,6 +24,7 @@ const routes = [
     { path: '/map', component: CustomGoogleMap },
     { path: '/place', component: CustomMap },
     { path: '/upload', component: ImageUpload },
+    { path: '/logind', component: demoLogin },
     { path: '*', component: Page404 },
 ]
 export default routes;

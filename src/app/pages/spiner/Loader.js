@@ -6,16 +6,16 @@ const Loader = (props) => {
   return (
     <>
       <CustomImageLoader
-       image={props.image}
-       animationType={'spin'}
-       speed={2}
-       circle={true}
-       />                         
+        image={props.image}
+        animationType={'spin'}
+        speed={2}
+        circle={true}
+      />
     </>
   )
 }
 
 export default Loader;
 Loader.defaultProps = {
-    image:"https://picsum.photos/200"
+  image: "https://picsum.photos/200"
 }

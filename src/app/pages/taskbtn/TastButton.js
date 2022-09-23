@@ -7,7 +7,6 @@ import { Box } from '@mui/system';
 const TastButton = () => {
     return (
         <Box sx={{ display: "flex", flexDirection: "column", justifyContent: "center,'&>*:m>1" }}>
-            {/* <Container > */}
             <div className='button-group'>
                 <Link to='/video' style={{ textDecoration: "none" }}><Button variant="outlined" size="small">Video Player</Button></Link>
                 <Link to='/btn' style={{ textDecoration: "none" }}><Button variant="outlined" size="small">Custom Button</Button></Link>
@@ -18,8 +17,6 @@ const TastButton = () => {
                 <Link to='/' style={{ textDecoration: "none" }}><Button variant="outlined" size="small">Commin Soon</Button></Link>
                 <Link to='/upload' style={{ textDecoration: "none" }}><Button variant="outlined" size="small">Upload</Button></Link>
             </div>
-
-            {/* </Container> */}
         </Box>
     )
 }

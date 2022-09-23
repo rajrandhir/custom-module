@@ -1,7 +1,7 @@
 import { Card, CardContent } from '@mui/material';
 import { Container } from '@mui/system';
 import React from 'react';
-import ButtonBox from './ButtonBox';
+import CustomButtonWrapper from './CustomButtonWrapper';
 import ChangeCircleIcon from '@mui/icons-material/ChangeCircle';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import ModeStandbyIcon from '@mui/icons-material/ModeStandby';
@@ -84,33 +84,18 @@ const ButtonProps = () => {
   }
 
   const customIcon = {
-    icon1: <ChangeCircleIcon />,
-    icon2: <AccountCircleIcon />,
-    icon3: <ModeStandbyIcon />,
-    icon4: <AccountBalanceIcon />
+    ChangeCircleIcon: <ChangeCircleIcon />,
+    AccountCircleIcon: <AccountCircleIcon />,
+    ModeStandbyIcon: <ModeStandbyIcon />,
+    AccountBalanceIcon: <AccountBalanceIcon />
   }
-  const iconContainer = {
-    color:"#fff",
-    height: "27px",
-    width: "27px",
-    lineHeight: '29px',
-    display: "flex",
-    justifyContent: "center",
-    alignItem: "center",
-    marginTop: "3px"
-  }
-  const customSize = {
-    height: "35px",
-    width: "35px",
-    radious: '50%'
-  }
+
   return (
     <>
-      <Container maxWidth="lg" sx={{mt:5}}>
+      <Container maxWidth="lg" sx={{ mt: 5 }}>
         <Card>
           <CardContent>
-            <ButtonBox iconContainer={iconContainer} customcColor={customcColor} customText={customText} customIcon={customIcon} customButton={customButton} 
-            customButton1={customButton1} customButton3={customButton3} customButton4={customButton4} customButton5={customButton5}
+            <CustomButtonWrapper customcColor={customcColor}
             />
           </CardContent>
         </Card>
